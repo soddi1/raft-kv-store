@@ -9,25 +9,20 @@ A distributed, fault-tolerant **key-value store** implemented in **Golang**, bui
 
 ---
 
-## ⚙️ Features
+## Features
 
-- ⛵ **Raft Consensus**: Leader election and log replication
-- 🧠 **Strong Consistency**: Ensures a single source of truth across nodes
-- 💾 **Persistence**: State survives node crashes via disk storage
-- 🔁 **Cluster Communication**: Nodes communicate over HTTP/RPC
-- 🧪 **Fault Tolerance**: Survives leader failure, recovers automatically
+- **Raft Consensus**: Leader election and log replication
+- **Strong Consistency**: Ensures a single source of truth across nodes
+- **Persistence**: State survives node crashes via disk storage
+- **Cluster Communication**: Nodes communicate over HTTP/RPC
+- **Fault Tolerance**: Survives leader failure, recovers automatically
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - **Golang 1.20+**
 - **Custom Raft implementation** (no external Raft libraries)
 - **Persistent log files** for durability
 - **gRPC / HTTP** (for inter-node communication, if used)
-- Optional: JSON API or CLI interface
-
 ---
-
-## 📂 Project Structure
-
